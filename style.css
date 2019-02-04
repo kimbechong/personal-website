@@ -1,0 +1,12 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#hello-world {
+    /* font-family: 'Major Mono Display', monospace; */
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1 {
+    font-size: 40px;
+}
