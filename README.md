@@ -1,7 +1,6 @@
-READ ME
+# Kim Chong
 
-Title: Personal Website
-Author: Kimberly Chong
-Version: v.1
-Objective: Display my abilities and experience in a website.
-Git platform: Github
+Personal website showcasing my professional background and development skills.
+
+|    Status   |
+| In progress |
