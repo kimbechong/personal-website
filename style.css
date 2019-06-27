@@ -1,3 +1,16 @@
+#my-nav {
+    background-color: #10254D !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+/* active navigation link */
+.active {
+    color: #FFD931 !important;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -6,8 +19,32 @@ body {
 #hello-world {
     font-family: 'Anonymous Pro', monospace;
     font-size: 60px;
+    margin: 50px 0px 50px 0px;
+}
+
+#intro {
+    font-size: 35px;
+    text-align: center;
 }
 
 h1 {
     font-size: 30px;
+    text-align: center;
+}
+
+button {
+    position: relative;
+    border: none;
+}
+
+.cta-btn {
+    width: 20%;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #FFED9F;
+    color: #10254D;
+}
+
+.center {
+    text-align: center;
 }
