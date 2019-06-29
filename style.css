@@ -6,6 +6,10 @@
     color: #fff !important;
 }
 
+a:hover {
+    color: rgb(167, 215, 255) !important;
+}
+
 /* active navigation link */
 .active {
     color: #FFD931 !important;
