@@ -15,6 +15,9 @@
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2306ed2255.js"></script>
+
     <title>Kim Chong</title>
 </head>
 
@@ -67,18 +70,24 @@
                 <p id="intro">I'm Kim Chong</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col center">
+        <div class="row center">
+            <div class="col">
                 <button type="button" class="cta-btn">read my resume</button>
+            </div>
+            <div class="col">
                 <button type="button" class="cta-btn">contact me</button>
             </div>
         </div>
-            <div class="row">
+            <div class="row center" >
                 <div class="col">
-                    <button type="button">GitHub</button>
+                    <div class="social-box">
+                        <a href="https://github.com/kimberlychong/" class="btn" role="button" id="github-btn" data-toggle="tooltip" data-placement="top" title="GitHub" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+                    </div>
                 </div>
                 <div class="col">
-                    <button type="button">LinkedIn</button>
+                    <div class="social-box">
+                        <a href="https://www.linkedin.com/in/kimberly-chong/" class="btn" id="linkedin-btn" data-toggle="tooltip" data-placement="top" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in fa-3x"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -146,7 +155,12 @@
 
     <div id="contact" class="container">
         <h1>contact me</h1>
-        <p>Let's grab coffee!</p>
+        <span>
+            <p>Let's grab coffee!</p>
+        </span>
+        <span>
+            <i class="fas fa-coffee"></i>
+        </span>
 
         <form>
             <div class="form-group">
