@@ -29,6 +29,7 @@ body {
 #intro {
     font-size: 35px;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -50,4 +51,20 @@ button {
 
 .center {
     text-align: center;
+}
+
+.social-box {
+    background-color: #FFED9F;
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.social-box a {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
 }
